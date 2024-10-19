@@ -18,6 +18,8 @@ To each node, we assign a feature vector containing the information about the on
 ## Transcription Factor Prediction
 The proposed GNN consists of three stacked GCN layers with 512 units. After every GCN layer, we apply dropout with a rate of 0.5 to prevent overfitting. The final part of the net consists of an average \emph{READOUT} layer and a linear layer with one unit with the Sigmoid activation function, which performs the final classification. 
 
+![GNN Architecture](images/gnn_architecture.png)
+
 ## Installation
 
 To install the required dependencies, use:
