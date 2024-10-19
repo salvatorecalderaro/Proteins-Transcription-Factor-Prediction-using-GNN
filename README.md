@@ -28,5 +28,13 @@ To install the required dependencies, use:
 
 ```bash
 pip install -r requirements.txt
+```
+## Usage
+```python
+from dgbpos import create_dgb
+S="ACDEFGHIKLMNPQRSTVWY"
+k=5
+emb_size=128
+g=create_gdb(S,k,emb_size)
+print(g)
 
-## Usage 
