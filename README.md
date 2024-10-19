@@ -39,7 +39,7 @@ emb_size=128
 g=create_dgb(S,k,emb_size)
 print(g)
 ```
-To test our proposal:
+To test our proposal, for instance for the Virus dataset:
 ```bash
 python run_graphtf.py -d Virus -k 5 -e 128
 ```
