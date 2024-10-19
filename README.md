@@ -15,6 +15,8 @@ This repository provides an innovative deep-learning methodology designed to pre
 
 To each node, we assign a feature vector containing the information about the one-hot encoding of the $(k-1)$-mer and its positional information obtained via positional encoding. 
 
+![GNN Architecture](images/example.png)
+
 ## Transcription Factor Prediction
 The proposed GNN consists of three stacked GCN layers with 512 units. After every GCN layer, we apply dropout with a rate of 0.5 to prevent overfitting. The final part of the net consists of an average \emph{READOUT} layer and a linear layer with one unit with the Sigmoid activation function, which performs the final classification. 
 
