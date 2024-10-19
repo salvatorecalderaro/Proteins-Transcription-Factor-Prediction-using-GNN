@@ -30,6 +30,7 @@ To install the required dependencies, use:
 pip install -r requirements.txt
 ```
 ## Usage
+To convert a protein sequence into a graph use:
 ```python
 from dgbpos import create_dgb
 S="ACDEFGHIKLMNPQRSTVWY"
@@ -37,4 +38,4 @@ k=5
 emb_size=128
 g=create_gdb(S,k,emb_size)
 print(g)
-
+```
