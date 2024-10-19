@@ -36,6 +36,10 @@ from dgbpos import create_dgb
 S="ACDEFGHIKLMNPQRSTVWY"
 k=5
 emb_size=128
-g=create_gdb(S,k,emb_size)
+g=create_dgb(S,k,emb_size)
 print(g)
+```
+To test our proposal:
+```bash
+python run_graphtf.py -d Virus -k 5 -e 128
 ```
