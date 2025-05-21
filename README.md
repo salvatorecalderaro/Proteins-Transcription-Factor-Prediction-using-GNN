@@ -44,7 +44,7 @@ To test our proposal, for instance for the Virus dataset:
 python run_graphtf.py -d Virus -k 5 -e 128
 ```
 
-To use this model cite:
+If you use this model please cite:
 ```
 @inproceedings{amato12025proteins,
   title={Proteins Transcription Factor Prediction Using Graph Neural Networks},
