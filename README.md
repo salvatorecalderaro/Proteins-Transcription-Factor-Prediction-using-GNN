@@ -43,3 +43,16 @@ To test our proposal, for instance for the Virus dataset:
 ```bash
 python run_graphtf.py -d Virus -k 5 -e 128
 ```
+
+To use this model cite:
+```
+@inproceedings{amato12025proteins,
+  title={Proteins Transcription Factor Prediction Using Graph Neural Networks},
+  author={Amato, Domenico and Calderaro, Salvatore and Lo Bosco, Giosu{\'e} and Vella, Filippo and Rizzo, Riccardo},
+  booktitle={Computational Intelligence Methods for Bioinformatics and Biostatistics: 19th International Meeting, CIBB 2024, Benevento, Italy, September 4--6, 2024, Revised Selected Papers},
+  volume={15276},
+  pages={15},
+  year={2025},
+  organization={Springer Nature}
+}
+```
