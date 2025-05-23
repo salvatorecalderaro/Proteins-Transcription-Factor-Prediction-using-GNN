@@ -297,15 +297,11 @@ def main():
     print(f"Mini-batch size: {mini_batch_size}")
     print(f"Hidden channels: {hidden_channels}")
     print(f"Learning rate: {lr}")
-    print("----------------------------------------------------------------\n")
-    
     run_experiment(device, data_type, k, es)
     exit(0)
-    print(f"Learning rate: {lr}")
     print("----------------------------------------------------------------\n")
     
-    run_experiment(device, data_type, k, es)
-    exit(0)
+
 
 if __name__=="__main__":
     main()
